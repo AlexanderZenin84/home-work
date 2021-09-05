@@ -6,4 +6,9 @@ public class Account {
     public Account(String number) {
         this.number = number;
     }
+
+    public String getNumber() {
+        return this.number;
+    }
+
 }
